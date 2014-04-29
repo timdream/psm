@@ -101,6 +101,12 @@ PublicServiceMessageApp.prototype.show = function(data, uri) {
     window._gaq.push(['_trackEvent', 'PSM', 'link', this.href]);
   });
   $card.find('.psm-card-title').text(data.meta.title);
+  if (data.links.icon && data.meta.site) {
+    var $icon = $('<img>');
+    $icon.prop('src', data.links.icon[0].href);
+    $icon.prop('title', data.meta.site);
+    $card.find('.psm-card-title').prepend($icon);
+  }
   this.$container.append($card);
 };
 
