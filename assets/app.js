@@ -58,8 +58,13 @@ PublicServiceMessageApp.prototype.decideLocaleIndex = function() {
   this.localeIndex = index;
 };
 
-PublicServiceMessageApp.prototype.getRandomMessageUri = function() {
+PublicServiceMessageApp.prototype.getMessageUri = function() {
   var localeMessage = this.messages[this.localeIndex];
+
+  if (window.location.hash.indexOf('url=') !== -1) {
+    return window.location.hash.match(/url=([^&]*)/)[1];
+  }
+
   return localeMessage[Math.floor(Math.random() * localeMessage.length)];
 };
 
@@ -69,7 +74,7 @@ PublicServiceMessageApp.prototype.start = function() {
   this.decideUserLocale();
   this.decideLocaleIndex();
 
-  var uri = this.getRandomMessageUri();
+  var uri = this.getMessageUri();
 
   $.getJSON(
     this.IFRAMELY_API_URL,
