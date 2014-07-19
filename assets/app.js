@@ -13,7 +13,7 @@ var PublicServiceMessageApp = function PublicServiceMessageApp() {
       'http://nonukeyesvote.tw/whynonuke.php',
       'http://nonuke.today/',
       'https://billy3321.github.io/tisa2/',
-      'http://coscup.org/2014/zh-tw/'
+      'http://g0v.tw/zh-TW/'
     ]
   ];
 
