@@ -6,6 +6,7 @@ var PublicServiceMessageApp = function PublicServiceMessageApp() {
     [
       'http://www.bbc.com/news/world-asia-27184298',
       'http://4am.tw/',
+      'https://mayday.us/',
       'http://www.ted.com/talks/lawrence_lessig_we_the_people_and_the_republic_we_must_reclaim.html'
     ],
     /* zh-TW */
