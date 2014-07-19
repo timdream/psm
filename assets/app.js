@@ -7,14 +7,16 @@ var PublicServiceMessageApp = function PublicServiceMessageApp() {
       'http://www.bbc.com/news/world-asia-27184298',
       'http://4am.tw/',
       'https://mayday.us/',
-      'http://www.ted.com/talks/lawrence_lessig_we_the_people_and_the_republic_we_must_reclaim.html'
+      'http://www.ted.com/talks/lawrence_lessig_we_the_people_and_the_republic_we_must_reclaim.html',
+      'https://www.youtube.com/watch?v=Y58njT2oXfE' // Israel and Palestine, an animated introduction.
     ],
     /* zh-TW */
     [
       'http://nonukeyesvote.tw/whynonuke.php',
       'http://nonuke.today/',
       'https://billy3321.github.io/tisa2/',
-      'http://g0v.tw/zh-TW/'
+      'http://g0v.tw/zh-TW/',
+      'https://www.youtube.com/watch?v=jKiMf5PrBiU' // 以色列和巴勒斯坦－動畫簡介
     ]
   ];
 
