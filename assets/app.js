@@ -26,7 +26,7 @@ PublicServiceMessageApp.prototype.IFRAMELY_API_KEY =
   'a3fa332969aa7a719fc658';
 
 PublicServiceMessageApp.prototype.IFRAMELY_API_URL =
-  'http://iframely.com/iframely';
+  'https://iframely.com/api/iframely';
 
 PublicServiceMessageApp.prototype.CONTAINER_SELECTOR = 'body';
 
@@ -61,7 +61,7 @@ PublicServiceMessageApp.prototype.decideLocaleIndex = function() {
   this.localeIndex = index;
 };
 
-PublicServiceMessageApp.prototype.getMessageUri = function() {
+PublicServiceMessageApp.prototype.getMessageUrl = function() {
   var localeMessage = this.messages[this.localeIndex];
 
   if (window.location.hash.indexOf('url=') !== -1) {
@@ -77,24 +77,24 @@ PublicServiceMessageApp.prototype.start = function() {
   this.decideUserLocale();
   this.decideLocaleIndex();
 
-  var uri = this.getMessageUri();
+  var url = this.getMessageUrl();
 
   $.getJSON(
     this.IFRAMELY_API_URL,
     {
       'api_key': this.IFRAMELY_API_KEY,
-      'uri': uri,
+      'url': url,
       'group': 'true',
       'rel': 'thumbnail'
     }
   ).success(function(data) {
-    this.show(data, uri)
+    this.show(data, url)
   }.bind(this));
 };
-PublicServiceMessageApp.prototype.show = function(data, uri) {
+PublicServiceMessageApp.prototype.show = function(data, url) {
   var $card = $(this.TEMPLATE);
   $card.css('background-image', 'url("' + data.links.thumbnail[0].href + '")');
-  $card.find('.psm-card-link').prop('href', data.meta.canonical || uri);
+  $card.find('.psm-card-link').prop('href', data.meta.canonical || url);
   $card.find('.psm-card-link').prop('title', data.meta.description);
   $card.find('.psm-card-link').on('click', function(evt) {
     if (!window._gaq) {
