@@ -14,7 +14,6 @@ var PublicServiceMessageApp = function PublicServiceMessageApp() {
     [
       'http://nonukeyesvote.tw/whynonuke.php',
       'http://nonuke.today/',
-      'https://billy3321.github.io/tisa2/',
       'http://g0v.tw/zh-TW/',
       'https://www.youtube.com/watch?v=jKiMf5PrBiU' // 以色列和巴勒斯坦－動畫簡介
     ]
