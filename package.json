@@ -1,0 +1,24 @@
+{
+  "name": "psm",
+  "version": "0.0.1",
+  "description": "A collection of public service messages I personally approve to run on my own websites.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timdream/psm.git"
+  },
+  "scripts": {
+    "pull": "./cli/pull.js"
+  },
+  "author": "Tim Guan-tin Chien <timdream@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/timdream/psm/issues"
+  },
+  "homepage": "https://github.com/timdream/psm#readme",
+  "devDependencies": {
+    "request": "^2.74.0"
+  }
+}
