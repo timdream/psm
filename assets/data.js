@@ -34,6 +34,14 @@ var data =
       "iconImageFileName": "pa.tedcdn.com-favicon.svg"
     },
     {
+      "url": "https://www.eff.org/",
+      "backgroundImageFileName": "www.eff.org-files-2015-03-02-eff-og-3.png",
+      "title": "Electronic Frontier Foundation",
+      "description": "Defending your rights in the digital world",
+      "siteTitle": "Electronic Frontier Foundation",
+      "iconImageFileName": "www.eff.org-sites-all-themes-frontier-favicon.ico"
+    },
+    {
       "url": "https://www.youtube.com/watch?v=Y58njT2oXfE",
       "backgroundImageFileName": "i.ytimg.com-vi-Y58njT2oXfE-mqdefault.jpg",
       "title": "Israeli Palestinian conflict explained: an animated introduction to Israel and Palestine",
