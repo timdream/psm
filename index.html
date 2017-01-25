@@ -8,8 +8,9 @@
   <title>Public Service Message</title>
 
   <script type="text/javascript">
-    if (window.location.hostname === 'timdream.org') {
-      var _gaq = _gaq || [];
+    var _gaq = _gaq || [];
+    if (window.location.hostname === 'timdream.org' &&
+        !(navigator.doNotTrack === '1')) {
       _gaq.push(['_setAccount', 'UA-4623408-2']);
       _gaq.push(['_trackPageview']);
 
