@@ -1,6 +1,6 @@
 // Machine generated, do not edit.
 
-var data = 
+var data =
 {
   "en": [
     {
@@ -40,14 +40,6 @@ var data =
       "description": "Defending your rights in the digital world",
       "siteTitle": "Electronic Frontier Foundation",
       "iconImageFileName": "www.eff.org-sites-all-themes-frontier-favicon.ico"
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=Y58njT2oXfE",
-      "backgroundImageFileName": "i.ytimg.com-vi-Y58njT2oXfE-mqdefault.jpg",
-      "title": "Israeli Palestinian conflict explained: an animated introduction to Israel and Palestine",
-      "description": "Israeli Palestinian conflict explained: an animated introduction Israel and Palestine \n\nEasy to understand, historically accurate https://jewishvoiceforpeace.org/ mini- primer about why Israelis and Palestinians are fighting, why the US-backed peace process has been an impediment to peace, and what you can do to make a difference. This conflict is essentially about land and human rights, not religion and culture. Endorsed by Palestinian, Israeli and American scholars and peace activists.\n\nJewish Voice for Peace opposes anti-Jewish, anti-Muslim, and anti-Arab bigotry and oppression.  JVP seeks an end to the Israeli occupation of the West Bank, Gaza Strip, and East Jerusalem; security and self-determination for Israelis and Palestinians; a just solution for Palestinian refugees based on principles established in international law; an end to violence against civilians; and peace and justice for all peoples of the Middle East. Current mission statement adopted in 2009.\n\nJewish Voice for Peace is a diverse and democratic community of activists inspired by Jewish tradition to work together for peace, social justice, and human rights. We support the aspirations of Israelis and Palestinians for security and self-determination.\n\nWe seek:\n\nA U.S. foreign policy based on promoting peace, democracy, human rights, and respect for international law.\nAn end to the Israeli occupation of the West Bank, the Gaza Strip, and East Jerusalem.\nA resolution of the Palestinian refugee problem consistent with international law and equity.\nAn end to all violence against civilians.\nPeace among the peoples of the Middle East.\nWe are among the many American Jews who say to the U.S. and Israeli governments: “Not in our names!”\n\nJVP supports peace activists in Palestine and Israel, and works in broad coalition with other Jewish, Arab-American, faith-based, peace and social justice organizations.\n\nJewish Voice for Peace calls for a U.S. foreign policy that promotes democracy and human rights. The United States must stop supporting repressive policies in Israel and elsewhere. U.S. military aid to countries in the Middle East must be based on rigorous enforcement of the Arms Export Control and Foreign Assistance Acts, which mandate that military aid may be used for only defensive purposes within the recipient country’s borders, and that aid may not be delivered to countries that abuse human rights.\n\nUnder these guidelines, U.S. military aid to Israel must be suspended until the occupation ends, since the occupation itself is in violation of these guidelines. Military aid allows Israel to avoid making serious efforts to resolve the Israeli-Palestinian conflict, as well as conflicts with its other neighbors. It enables the occupation, contributes to the devastation of Palestinian society and fosters the increasing militarization of Israeli society.\n\nJVP also calls for suspension of military aid to other human rights abusers and occupiers in the Middle East. This aid helps prop up autocratic and repressive regimes, promotes violations of human rights and international law, obstructs democratic movements, prolongs the Israeli-Palestinian conflict, and fosters militarism and violence at home and abroad.\n\nRead our mission here:\nhttps://jewishvoiceforpeace.org/mission\n\nDownload free resources here:\nhttps://jewishvoiceforpeace.org/toolkit/\n\nMake a tax deductible donation to Jewish Voice for Peace here:\nhttps://jewishvoiceforpeace.org/donate\n\nGet independent reporting from Israel/Palestine here:\nhttp://972mag.com\n\nWatch JVP members talk about their vision for justice in Israel and Palestine: https://www.youtube.com/watch?v=uEtF9_yuAnM",
-      "siteTitle": "YouTube",
-      "iconImageFileName": "s.ytimg.com-yts-img-favicon_144-vflWmzoXw.png"
     }
   ],
   "zh-TW": [
@@ -62,14 +54,6 @@ var data =
       "backgroundImageFileName": "g0v.tw-imgs-g0v-2line-white-s.jpg",
       "title": "零時政府 g0v.tw",
       "description": "g0v.tw 是一個推動資訊透明化的社群，致力於開發公民參與社會的資訊平台與工具。2012 年底開始成形，截至2014年初已有 26 場工作坊、受邀演講 30+ 場、媒體報導 20+ 次、500+ 遍佈三大洲的貢獻者，成果皆以自由軟體模式釋出。將 gov 以「零」替代成為 g0v，從零重新思考政府的角色，也是代表數位原生世代從 0 與 1 世界的視野。g0v.tw 以開放原始碼的精神為基底，關心言論自由、資訊開放，寫程式提供公民容易使用的資訊服務。資訊的透明化能幫助公民更確實了解政府運作、更快速了解議題，不被媒體壟斷，也才可有效監督政府，化為參與行動最終深化民主體質。"
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=jKiMf5PrBiU",
-      "backgroundImageFileName": "i.ytimg.com-vi-jKiMf5PrBiU-maxresdefault.jpg",
-      "title": "以色列和巴勒斯坦－動畫簡介 Israel and Palestine, an animated introduction.",
-      "description": "一份清楚而正確的基礎知識影片，解釋了以色列和巴勒斯坦之間為何產生衝突，以及美方主導的「和談」為什麼是和平的阻礙，並告訴你究竟能做些什麼。\n\n以巴之間的衝突事實上是土地和人權的衝突，而非宗教和文化上的。\n\n本影片經過巴勒斯坦、以色列和美國學者，以及許多和平運動團體的背書。\n\nEasy to understand, historically accurate mini-primer about why Israelis and Palestinians are fighting, why the US-backed peace process has been an impediment to peace, and what you can do to make a difference. This conflict is essentially about land and human rights, not religion and culture. Endorsed by Palestinian, Israeli and American scholars and peace activists.\n\n原始影片：http://youtu.be/Y58njT2oXfE\n版權所有：猶太和平之聲 (Jewish Voice for Peach) http://jewishvoiceforpeace.org/\n中文翻譯：紀念若雪巴勒斯坦資訊網 http://palinfo.habago.org/ \n(本影片中文內容非版權人 JVP 之官方翻譯，而是經其同意後自行翻譯、加註並重新上傳)",
-      "siteTitle": "YouTube",
-      "iconImageFileName": "s.ytimg.com-yts-img-favicon_144-vflWmzoXw.png"
     }
   ]
 };
