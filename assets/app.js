@@ -59,11 +59,11 @@ PublicServiceMessageApp.prototype.show = function(data) {
   $card.find('.psm-card-link').prop('href', data.url);
   $card.find('.psm-card-link').prop('title', data.description);
   $card.find('.psm-card-link').on('click', function(evt) {
-    if (!window._gaq) {
+    if (!window._paq) {
       return;
     }
     /* category, action, opt_label, opt_value, opt_noninteraction */
-    window._gaq.push(['_trackEvent', 'PSM', 'link', this.href]);
+    window._paq.push(['trackEvent', 'PSM', 'link', this.href]);
   });
   $card.find('.psm-card-title').text(data.title);
   if (data.iconImageFileName && data.siteTitle) {
