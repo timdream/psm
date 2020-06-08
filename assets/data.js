@@ -1,7 +1,4 @@
-// Machine generated, do not edit.
-
-var data =
-{
+var data = {
   "en": [
     {
       "url": "http://www.bbc.com/news/world-asia-27184298",
@@ -40,6 +37,14 @@ var data =
       "description": "Defending your rights in the digital world",
       "siteTitle": "Electronic Frontier Foundation",
       "iconImageFileName": "www.eff.org-sites-all-themes-frontier-favicon.ico"
+    },
+    {
+      "url": "https://taiwancanhelp.us/",
+      "backgroundImageFileName": "taiwancanhelp-og.png",
+      "title": "Taiwan Can Help",
+      "description": "In a time of isolation, we choose solidarity. In the past weeks, Taiwan has provided more than 16 million medical masks to support medical workers around the world and has worked together with the US and the EU on the most advanced rapid tests and vaccines for COVID-19. We are here to help.",
+      "siteTitle": "Taiwan Can Help",
+      "iconImageFileName": "taiwancanhelp-favicon.png"
     }
   ],
   "zh-TW": [
