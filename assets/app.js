@@ -5,8 +5,6 @@ var PublicServiceMessageApp = function PublicServiceMessageApp() {
   this.dataLocales = Object.keys(data);
 };
 
-PublicServiceMessageApp.prototype.CONTAINER_SELECTOR = 'body';
-
 PublicServiceMessageApp.prototype.TEMPLATE = '<div class="psm-card">' +
   '<a target="_blank" class="psm-card-overlay psm-card-link">' +
     '<p class="psm-card-title"></p>'
@@ -45,7 +43,7 @@ PublicServiceMessageApp.prototype.getData = function() {
 };
 
 PublicServiceMessageApp.prototype.start = function() {
-  this.$container = $(this.CONTAINER_SELECTOR);
+  this.container = document.body;
 
   this.decideUserLocale();
   this.decideMatchedLocale();
@@ -54,25 +52,28 @@ PublicServiceMessageApp.prototype.start = function() {
   this.show(data);
 };
 PublicServiceMessageApp.prototype.show = function(data) {
-  var $card = $(this.TEMPLATE);
-  $card.css('background-image', 'url("assets/data/' + data.backgroundImageFileName + '")');
-  $card.find('.psm-card-link').prop('href', data.url);
-  $card.find('.psm-card-link').prop('title', data.description);
-  $card.find('.psm-card-link').on('click', function(evt) {
+  document.body.innerHTML = this.TEMPLATE;
+  var cardEl = document.querySelector(".psm-card");
+
+  cardEl.style.backgroundImage  = 'url("assets/data/' + data.backgroundImageFileName + '")';
+  document.querySelector('.psm-card-link').href = data.url;
+  document.querySelector('.psm-card-link').title = data.description;
+  document.querySelector('.psm-card-link').addEventListener('click', function(evt) {
     if (!window._paq) {
       return;
     }
     /* category, action, opt_label, opt_value, opt_noninteraction */
     window._paq.push(['trackEvent', 'PSM', 'link', this.href]);
   });
-  $card.find('.psm-card-title').text(data.title);
+
+  var titleEl = document.querySelector('.psm-card-title');
+  titleEl.textContent = data.title;
   if (data.iconImageFileName && data.siteTitle) {
-    var $icon = $('<img>');
-    $icon.prop('src', 'assets/data/' + data.iconImageFileName);
-    $icon.prop('title', data.siteTitle);
-    $card.find('.psm-card-title').prepend($icon);
+    var iconEl = document.createElement('img');
+    iconEl.src = 'assets/data/' + data.iconImageFileName;
+    iconEl.title = data.siteTitle;
+    titleEl.insertBefore(iconEl, titleEl.firstChild);
   }
-  this.$container.append($card);
 };
 
 var app = new PublicServiceMessageApp();
