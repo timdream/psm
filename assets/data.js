@@ -11,10 +11,11 @@ var data = {
   ],
   "zh-TW": [
     {
-      "url": "http://g0v.tw/zh-TW/",
-      "backgroundImageFileName": "g0v.tw-imgs-g0v-2line-white-s.jpg",
-      "title": "零時政府 g0v.tw",
-      "description": "g0v.tw 是一個推動資訊透明化的社群，致力於開發公民參與社會的資訊平台與工具。2012 年底開始成形，截至2014年初已有 26 場工作坊、受邀演講 30+ 場、媒體報導 20+ 次、500+ 遍佈三大洲的貢獻者，成果皆以自由軟體模式釋出。將 gov 以「零」替代成為 g0v，從零重新思考政府的角色，也是代表數位原生世代從 0 與 1 世界的視野。g0v.tw 以開放原始碼的精神為基底，關心言論自由、資訊開放，寫程式提供公民容易使用的資訊服務。資訊的透明化能幫助公民更確實了解政府運作、更快速了解議題，不被媒體壟斷，也才可有效監督政府，化為參與行動最終深化民主體質。"
+      "url": "https://ocf.tw/",
+      "backgroundImageFileName": "ocf-cover.png",
+      "title": "財團法人開放文化基金會 (OCF)",
+      "description": "2014 年 6 月，多個台灣開源社群共同發起開放文化基金會（Open Culture Foundation，簡稱 OCF），以法人組織的力量推廣開放文化。除了支援民間社群舉辦活動外，也協助企業、政府、非營利及學術單位導入開放文化的知識及精神，期望在產、官、學之間激起開放協作的火花。",
+      "iconImageFileName": "ocf-favicon.png"
     }
   ]
 };
